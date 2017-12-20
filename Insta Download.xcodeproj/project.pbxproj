@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11BB91219B7149A362272CE7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 063396F987AA8259E4E9CF78 /* AVFoundation.framework */; };
+		17D6CB244FF8726D5C11A10D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61D1EC0E266FEAF18DA44D3B /* CoreMedia.framework */; };
+		193103C291922B6DDFD8BA62 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5695E4C03B6A2305B99F11E1 /* CoreTelephony.framework */; };
 		5230ECC91FEAEDAD003A34D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5230ECC81FEAEDAD003A34D4 /* AppDelegate.swift */; };
 		5230ECCB1FEAEDAD003A34D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5230ECCA1FEAEDAD003A34D4 /* ViewController.swift */; };
 		5230ECCE1FEAEDAD003A34D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5230ECCC1FEAEDAD003A34D4 /* Main.storyboard */; };
 		5230ECD01FEAEDAD003A34D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5230ECCF1FEAEDAD003A34D4 /* Assets.xcassets */; };
 		5230ECD31FEAEDAD003A34D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5230ECD11FEAEDAD003A34D4 /* LaunchScreen.storyboard */; };
+		5CA44E41C0ED603A77D0EA92 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960816F785E1A99AA969C405 /* CoreVideo.framework */; };
+		84E9796B5241047973F6551B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E55609D478D8896E3273788 /* QuartzCore.framework */; };
+		A9087B4D1DB1B51AEC01AE37 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48AEE0F76BCAB4216AF322F /* BuddyBuildSDK.framework */; };
+		B3B2D4E039EECAE47B3937E8 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FAD47300A37BCA61408464C /* AssetsLibrary.framework */; };
+		C8C2B88A7EAD2160AD5A5DB1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC7297E419F68C93AA77A69 /* SystemConfiguration.framework */; };
+		E5BF0BA6D79A1CDD33E9F14F /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2A19F1337B924A701870BB /* CoreText.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		063396F987AA8259E4E9CF78 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2E55609D478D8896E3273788 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		5230ECC51FEAEDAD003A34D4 /* Insta Download.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Insta Download.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5230ECC81FEAEDAD003A34D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5230ECCA1FEAEDAD003A34D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +33,14 @@
 		5230ECCF1FEAEDAD003A34D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5230ECD21FEAEDAD003A34D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5230ECD41FEAEDAD003A34D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5695E4C03B6A2305B99F11E1 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		5F2A19F1337B924A701870BB /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		61D1EC0E266FEAF18DA44D3B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		6FAD47300A37BCA61408464C /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		7AC7297E419F68C93AA77A69 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		960816F785E1A99AA969C405 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		9F85F58CE966316E9ABEDC6B /* Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		C48AEE0F76BCAB4216AF322F /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BuddyBuildSDK.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +48,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9087B4D1DB1B51AEC01AE37 /* BuddyBuildSDK.framework in Frameworks */,
+				B3B2D4E039EECAE47B3937E8 /* AssetsLibrary.framework in Frameworks */,
+				E5BF0BA6D79A1CDD33E9F14F /* CoreText.framework in Frameworks */,
+				193103C291922B6DDFD8BA62 /* CoreTelephony.framework in Frameworks */,
+				C8C2B88A7EAD2160AD5A5DB1 /* SystemConfiguration.framework in Frameworks */,
+				84E9796B5241047973F6551B /* QuartzCore.framework in Frameworks */,
+				11BB91219B7149A362272CE7 /* AVFoundation.framework in Frameworks */,
+				17D6CB244FF8726D5C11A10D /* CoreMedia.framework in Frameworks */,
+				5CA44E41C0ED603A77D0EA92 /* CoreVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A3156D7611FD6866680D21A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C48AEE0F76BCAB4216AF322F /* BuddyBuildSDK.framework */,
+				6FAD47300A37BCA61408464C /* AssetsLibrary.framework */,
+				5F2A19F1337B924A701870BB /* CoreText.framework */,
+				5695E4C03B6A2305B99F11E1 /* CoreTelephony.framework */,
+				7AC7297E419F68C93AA77A69 /* SystemConfiguration.framework */,
+				2E55609D478D8896E3273788 /* QuartzCore.framework */,
+				063396F987AA8259E4E9CF78 /* AVFoundation.framework */,
+				61D1EC0E266FEAF18DA44D3B /* CoreMedia.framework */,
+				960816F785E1A99AA969C405 /* CoreVideo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5230ECBC1FEAEDAC003A34D4 = {
 			isa = PBXGroup;
 			children = (
 				5230ECC71FEAEDAD003A34D4 /* Insta Download */,
 				5230ECC61FEAEDAD003A34D4 /* Products */,
+				2A3156D7611FD6866680D21A /* Frameworks */,
+				9F85F58CE966316E9ABEDC6B /* Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -276,10 +322,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 32922A2567;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Insta Download/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.toyopagroup.Insta-Download";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -291,10 +342,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 32922A2567;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Insta Download/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.toyopagroup.Insta-Download";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
